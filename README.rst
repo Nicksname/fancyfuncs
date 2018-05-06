@@ -6,12 +6,12 @@ FancyFuncs
 Features
 --------
 not much yet
+
 - timing
 
 Requirements
 ------------
 - `numpy`
-- `time`
 
 Installation
 ------------
