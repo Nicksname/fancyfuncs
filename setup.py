@@ -114,7 +114,7 @@ setup(
     # the `py_modules` argument instead as follows, which will expect a file
     # called `my_module.py` to exist:
     #
-    py_modules=["fancyfuncs"],
+    py_modules=find_packages(),#["fancyfuncs", "timefuncs"],
     #
     # packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
 
@@ -124,7 +124,7 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['numpy', 'time'],  # Optional
+    install_requires=['numpy'],  # Optional
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"

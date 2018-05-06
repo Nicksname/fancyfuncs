@@ -1,6 +1,7 @@
 import numpy as np
 from time import clock
 
+__all__= ['timer']
 
 class timer:
     def __init__(self):
